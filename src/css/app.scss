@@ -1,0 +1,17 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+:root {
+  --f7-theme-color: #2196f3;
+  --f7-theme-color-rgb: 26, 64, 251;
+  --f7-theme-color-shade: #1d7dc9;
+  --f7-theme-color-tint: #4261fc;
+  --f7-block-title-medium-font-size: 18px;
+  // --f7-list-chevron-icon-color: #1d7dc9;
+}
+.list .item-title  {
+
+  font-weight: 500;
+}
+/* Your app custom styles here */

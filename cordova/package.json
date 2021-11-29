@@ -1,0 +1,62 @@
+{
+  "name": "com.pushmobile.saveinfo",
+  "displayName": "save.info",
+  "version": "5.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-custom-config": "^5.1.0",
+    "cordova-plugin-keyboard": "^1.2.0",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "onesignal-cordova-plugin": "2.11.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-custom-config": {},
+      "@globules-io/cordova-plugin-ios-xhr": {},
+      "cordova-plugin-fingerprint-aio": {
+        "FACEID_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-apprate": {
+        "PLAY_CORE_VERSION": "1.+"
+      },
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-background-mode": {},
+      "cordova-plugin-autostart": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "devDependencies": {
+    "@globules-io/cordova-plugin-ios-xhr": "git+https://github.com/globules-io/cordova-plugin-ios-xhr.git",
+    "cordova-android": "^9.1.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-apprate": "^1.7.2",
+    "cordova-plugin-autostart": "^2.3.0",
+    "cordova-plugin-background-mode": "^0.7.3",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-fingerprint-aio": "^4.0.2",
+    "cordova-plugin-inappbrowser": "^5.0.0",
+    "cordova-plugin-nativestorage": "^2.3.2",
+    "cordova-plugin-whitelist": "^1.3.5",
+    "cordova-sqlite-storage": "^6.0.0"
+  }
+}
